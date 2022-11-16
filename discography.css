@@ -1,0 +1,35 @@
+*{
+	margin: 5px;
+	padding: 5px;
+}
+body{
+	background: #101820;
+	font-family: 'Bahnschrift';
+	align-items: center;
+	justify-content: center;
+	display: flex;
+}
+h4{
+	font-family: Bahnschrift;
+	color: 	#F8F8FF;
+}
+h2{
+	color: 	#F8F8FF;
+}
+.cover{
+	width: 900px;
+	height: 400px;
+	/*background: #000;*/
+	margin-top: 50px;
+	display: flex;
+}
+.box{
+	margin: 10px;
+	width: 600px;
+	height: 450px;
+	box-shadow: inset 0 0 200px rgba(255, 255, 255, .6);
+}
+img{
+	width: 300px;
+	height: 300px;
+}

@@ -1,0 +1,97 @@
+*{
+	margin: 0;
+	padding: 0;
+
+}
+body{
+	background: #101820;
+	font-family: 'Bahnschrift';
+	align-items: center;
+	justify-content: center;
+	display: block;	
+}
+h2{
+	font-family: Bahnschrift;
+	color: 	#F8F8FF;
+	padding-left: 10px;
+	padding-top: 25px;
+}
+p{
+	color: 	#F8F8FF;
+	padding-left: 10px;
+}
+.cover{
+	width: 500px;
+	/*background: #000;*/
+	margin-top: 50px;
+	display: flex;
+	margin-top: 0;
+	margin-left: 43px;
+	margin-bottom: 200px;
+}
+.box{
+	margin: 10px;
+	width: 600px;
+	height: 400px;
+	box-shadow: inset 0 0 200px rgba(255, 255, 255, .6);
+}
+img{
+	width: 240px;
+	height: 240px;
+}
+
+/*footer*/
+.footer {
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	height: auto;
+	width: 100vw;
+	font-family: Bahnschrift;
+	padding-top: 20px;
+}
+.socials {
+	display: flex;
+	float: left;
+	margin-top: 0;
+	margin-left: 10px;
+}
+.socials li {
+	margin: 0 5px;
+	margin-left: 10px;
+	padding-top: 0;
+	margin-bottom: 2px;
+	color: grey;
+}
+.socials a {
+	text-decoration: none;
+	color: #101820;
+}
+.socials a i {
+	font-size: 1.5rem;
+	transition: color .4s ease;
+}
+.socials a:hover i {
+	color: white;
+}
+.footer-bottom {
+	background: grey;
+	width: 100vw;
+	padding: 20px 0;
+	margin-right: 20px;
+	text-align: right;
+	font-family: Bahnschrift;
+}
+.footer-bottom p {
+	font-size: 12px;
+	word-spacing: 2px;
+	text-transform: capitalize;
+	color: black;
+	margin-right: 20px;
+}
+.footer-bottom span {
+	text-transform: uppercase;
+	opacity: .6;
+	font-weight: 500;
+}
